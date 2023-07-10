@@ -1,7 +1,5 @@
 # ToDo-List-WebApp
 
-# LGM Virtual Internship Program Task 01
-
 A simple To-Do List app made with HTML, CSS and JavaScript 
 
 Click On Image 👇👇👇
