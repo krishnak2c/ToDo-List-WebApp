@@ -239,9 +239,11 @@ span a:hover {
 }
 
 #section-contact {
-    position: absolute;
-    text-align: center;
-    bottom: 0rem;
+    position: fixed;
+    left: 50%;
+    bottom: 0px;
+    transform: translate(-50%, -50%);
+    margin: -75px auto;
   }
   #section-contact .footer-link:link,
   #section-contact .footer-link:visited {
