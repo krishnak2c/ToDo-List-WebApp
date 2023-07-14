@@ -13,8 +13,20 @@ body {
     position: relative;
     -webkit-tap-highlight-color: transparent;
     -webkit-text-size-adjust: 100%;
-    background-color: #0004de;
-    background-image: linear-gradient(90deg, #d01414cd 0%, #9217dfcc 100%);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-image: url('https://static.pexels.com/photos/370799/pexels-photo-370799.jpeg');
+    background-size:contain;
+    background-size: 100% 100% ;
+    -webkit-animation: slidein 100s;
+    animation: slidein 50s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate; 
 
 }
 
@@ -39,7 +51,7 @@ main {
 .heading {
     font-size: 3.2rem;
     font-weight: 500;
-    background-image: linear-gradient(to right, #8000ff, #0008ff);
+    background-image: linear-gradient(to right, #00ff30, #ffb300);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -283,4 +295,18 @@ span a:hover {
       height: 3rem;
     }
   }
+
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:200');
+
+
+@-webkit-keyframes slidein {
+from {background-position: top; background-size:3000px; }
+to {background-position: -100px 0px;background-size:2750px;}
+}
+
+@keyframes slidein {
+from {background-position: top;background-size:3000px; }
+to {background-position: -100px 0px;background-size:2750px;}
+
+}
   
